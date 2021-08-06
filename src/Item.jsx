@@ -5,7 +5,7 @@ import React from "react";
  * @todo refactor this to be a functional compo instead
  * */
 
-export default class Item extends React.Component<{ value: string }> {
+export default class Item extends React.Component {
   renderCount = 0;
 
   render() {
